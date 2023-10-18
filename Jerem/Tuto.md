@@ -1,6 +1,6 @@
 ## Mise en place initiale
 
-Alors, pour commencer tu auras besoin de VSCode (logique)  
+Alors, pour commencer tu auras besoin de VSCode (logique).  
   
 Il va aussi te falloir installer [git](https://git-scm.com/download/win) puis *npm*, qui fait partie de [NodeJS](https://nodejs.org/dist/v18.18.2/node-v18.18.2-x64.msi).  
 
@@ -16,7 +16,7 @@ Vas dans ce dossier, fais-y un clic droit puis "Ouvrir dans VSCode" (si tu es su
 
 À partir de là, tu as ouvert le repo dans VSCode et a accès au code.
 
-Ensuite, tu va faire `Ctrl`+`%` pour ouvrir le terminal intégré, puis y taper
+Ensuite, tu vas faire `Ctrl`+`%` pour ouvrir le terminal intégré, puis y taper
 
 ```bash
 npm install
@@ -32,7 +32,7 @@ npm run dev
 
 Premièrement, il serait intéressant de te créer une branche de travail, ce que j'ai pris le soin de faire.
 
-Une branche est une sorte de copie du code principal, où tu peux travailler sans risque de modifier ce dernier, quand te modifications sont bonnes, tu fais ce qu'on appelle une *Pull-Request* pour intégrer et déployer tes modifications.  
+Une branche est une sorte de copie du code principal, où tu peux travailler sans risque de modifier ce dernier, quand tes modifications sont bonnes, tu fais ce qu'on appelle une *Pull-Request* pour intégrer et déployer tes modifications.  
 
 Ta première étape est de passer sur ta branche :
 
@@ -51,7 +51,7 @@ Après avoir fait ta modification, il va falloir la commiter. Pour se faire, apr
 
 ![Stage](Images/commit1.png)
 
-Une fois ceci fait, tu vas donc pouvoir `commit` et `push` ton travail dans ta branche
+Une fois ceci fait, tu vas donc pouvoir `commit` et `push` ton travail dans ta branche (Tu peux faire autant de commits que tu veux avant de passer à la suite).
 
 ![Commit and Push](Images/commit2.png)
 
@@ -64,7 +64,7 @@ Sur [le repo](https://github.com/cogilabs/Cocktails), tu devrait avoir une alert
 ![Alerte de changements](Images/gitHubAlert.png)
 
 Tu vas donc cliquer sur `Compare & pull request`.  
-Ici tu vas pouvoir donner un peu plus de détails sur ce que tu as fait, puis faire la Pull-Request en cliquant sur `Create pull request` :
+Ici tu vas pouvoir donner un peu plus de détails sur ce que tu as fait et sur tes différents commits, puis faire la Pull-Request en cliquant sur `Create pull request` :
 
 ![Pull Request](Images/PR.png)
 
